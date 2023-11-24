@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/Level 1 Task 1/images/bose-favicon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="/Level 1 Task 1/style.css" />
+  </head>
+  <body>
+    <div class="mouse"></div>
+    <div class="navbar">
+      <div class="navbar-left">
+        <a href="">
+          <img src="/Level 1 Task 1/images/bose-logo.png" alt="bose"
+        /></a>
+      </div>
+      <div class="navbar-right">
+        <ul>
+          <li><a class="home-link" href="#home">Home</a></li>
+          <li><a href="#about" class="about-link">About</a></li>
+          <li><a href="#spec" class="spec-link">Specifications</a></li>
+          <li><a href="#fav" class="fav-link">Favorites</a></li>
+        </ul>
+      </div>
+      <button class="mobile-overlay-open">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+    <div class="mobile-overlay">
+      <button class="mobile-overlay-close">
+        <i class="fa-solid fa-x"></i>
+      </button>
+      <ul>
+        <li><a class="home-link" href="#home">Home</a></li>
+        <li><a href="#about" class="about-link">About</a></li>
+        <li><a href="#spec" class="spec-link">Specifications</a></li>
+        <li><a href="#fav" class="fav-link">Favorites</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="home" id="home">
+        <span>B</span><span>O</span><span>S</span><span>E</span>
+        <div class="home-overlay">
+          <img
+            id="home-overlay-img"
+            src="/Level 1 Task 1//images/main-headphone-black.png"
+            alt=""
+          />
+        </div>
+
+        <button class="buttonPri">
+          Buy Now <i class="fa-sharp fa-solid fa-circle-play"></i>
+        </button>
+
+        <div class="socials">
+          <span>Follow Us</span>
+          <span
+            ><a href=""><i class="fa-brands fa-instagram"></i></a
+          ></span>
+          <span
+            ><a href=""><i class="fa-brands fa-x-twitter"></i></a
+          ></span>
+          <span
+            ><a href=""><i class="fa-brands fa-linkedin-in"></i></a
+          ></span>
+          <span
+            ><a href=""><i class="fa-brands fa-youtube"></i></a
+          ></span>
+          <span
+            ><a href=""><i class="fa-brands fa-facebook"></i></a
+          ></span>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <div class="about-left">
+          <h1>More about us</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            adipisci magni animi itaque tenetur, accusantium exercitationem
+            laborum aspernatur doloremque nesciunt quia vitae consequatur
+            voluptas dolore non voluptatibus ipsum laudantium harum?
+          </p>
+          <button class="buttonPri">
+            Know More <i class="fa-solid fa-circle-info"></i>
+          </button>
+        </div>
+        <div class="about-right">
+          <img
+            id="about-img"
+            src="/Level 1 Task 1/images/main-headphone-about.png"
+            alt="bose"
+          />
+        </div>
+      </div>
+      <div class="specs" id="spec">
+        <div class="specs-img">
+          <img src="/Level 1 Task 1/images/features.png" alt="" />
+        </div>
+        <div class="specs-text">
+          <h1 class="odd">Noice Rejecting mic system</h1>
+          <h1 class="even">Aware mode</h1>
+          <h1 class="odd">LightWeight Comfort</h1>
+          <h1 class="even">All day listening</h1>
+          <h1 class="odd">Adjustable eq</h1>
+        </div>
+      </div>
+      <div class="favorites" id="fav">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/Level 1 Task 1/images/fav-1.png" alt="" />
+              <h2>Bose Easy Comfort</h2>
+            </div>
+            <div class="swiper-slide">
+              <img src="/Level 1 Task 1/images/fav-2.png" alt="" />
+              <h2>Bose Overhead Azee</h2>
+            </div>
+            <div class="swiper-slide">
+              <img src="/Level 1 Task 1/images/fav-3.png" alt="" />
+              <h2>Bose Over Ear</h2>
+            </div>
+            <div class="swiper-slide">
+              <img src="/Level 1 Task 1/images/fav-4.png" alt="" />
+              <h2>Bose Limited Edition</h2>
+            </div>
+            <div class="swiper-slide">
+              <img src="/Level 1 Task 1/images/fav-5.png" alt="" />
+              <h2>Bose ON plus</h2>
+            </div>
+            <div class="swiper-slide">
+              <img src="/Level 1 Task 1/images/fav-6.png" alt="" />
+              <h2>Bose Over Pro Max</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-logo">BOSE</div>
+        <div class="footer-products">
+          <ul>
+            <h1>Products</h1>
+            <li>Headphones</li>
+            <li>earphones</li>
+            <li>earbuds</li>
+            <li>accessories</li>
+          </ul>
+          <ul>
+            <h1>services</h1>
+            <li>updates</li>
+            <li>register</li>
+            <li>service center</li>
+            <li>product help</li>
+          </ul>
+        </div>
+        <div class="footer-socials">
+          <div class="footer-contact">
+            <input type="email" name="" id="" />
+            <button>subscribe <i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+          <div class="links">
+            <span
+              ><a href=""><i class="fa-brands fa-instagram"></i></a
+            ></span>
+            <span
+              ><a href=""><i class="fa-brands fa-x-twitter"></i></a
+            ></span>
+            <span
+              ><a href=""><i class="fa-brands fa-linkedin-in"></i></a
+            ></span>
+            <span
+              ><a href=""><i class="fa-brands fa-youtube"></i></a
+            ></span>
+            <span
+              ><a href=""><i class="fa-brands fa-facebook"></i></a
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/Level 1 Task 1/script.js"></script>
+  </body>
+</html>
